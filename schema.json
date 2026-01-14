@@ -1,0 +1,49 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "sample schema",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/foo": {
+      "get": {
+        "tags": [
+          "Innergy.DraftingOnDemand"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Foo"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Foo": {
+        "required": [
+          "bar"
+        ],
+        "type": "object",
+        "properties": {
+          "bar": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "sample schema"
+    }
+  ]
+}

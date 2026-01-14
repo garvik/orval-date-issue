@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "esnext",
+      "target": "esnext",
+      "skipLibCheck": true,
+      "moduleResolution": "bundler",
+      "noEmit": true,
+      "strict": true,
+      "noUncheckedIndexedAccess": true
+    },
+    "include": ["orval.config.ts", "src"]
+  }
+  

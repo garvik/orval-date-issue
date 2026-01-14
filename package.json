@@ -1,0 +1,19 @@
+{
+    "name": "frontend",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "api": "orval"
+    },
+    "dependencies": {
+        "@tanstack/react-query": "5.90.17"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "10.2.0",
+        "msw": "2.12.7",
+        "orval": "7.18.0",
+        "typescript": "5.9.3"
+    },
+    "packageManager": "yarn@4.12.0"
+}
